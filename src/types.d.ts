@@ -7,6 +7,13 @@
 // These functions will throw an error if the JSON doesn't
 // match the expected interface, even if the JSON is valid.
 
+declare global{
+  interface  Array<T>{
+        toSorted(compareFn ?: (a: T, b:T) => Number): T[]   
+    }
+    
+} 
+
 export interface APIResult {
     results: User[];
     info:    Info;

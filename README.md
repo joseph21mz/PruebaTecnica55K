@@ -4,11 +4,11 @@ https://xxxxx. To achieve this, you mus use the API Provided by https://randomus
 
 Here are the steps to follow:
 
--[] Fetch 100 rows of data using the API.
--[] Display the data in a table format, similar to the example.
--[] Provide the option to color rows as shown in the example.
--[] Allow the data to be sorted by country as demistrated in the example.
--[] Enable the ability to delete a row as showm in the example.
+-[x] Fetch 100 rows of data using the API.
+-[x] Display the data in a table format, similar to the example.
+-[x] Provide the option to color rows as shown in the example.
+-[x] Allow the data to be sorted by country as demistrated in the example.
+-[x] Enable the ability to delete a row as showm in the example.
 -[] Implement a feature tha allows the user to restore the initial state, meaning tha all deletd rows will
     be recovered.
 -[] Handle any potential errors that may occur.
